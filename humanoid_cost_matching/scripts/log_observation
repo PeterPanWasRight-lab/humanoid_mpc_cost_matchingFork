@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+python3 -m humanoid_cost_matching.data.observation_logger "$@"

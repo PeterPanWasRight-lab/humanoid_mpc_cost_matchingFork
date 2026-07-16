@@ -1,0 +1,19 @@
+# Build artifacts
+build/
+install/
+log/
+.ccache/
+cppad_code_gen/
+
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db

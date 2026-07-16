@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>humanoid_cost_matching_cpp</name>
+  <version>0.0.1</version>
+  <description>C++ utilities for humanoid cost-matching.</description>
+
+  <maintainer email="wenqicai.97@gmail.com">Wenqi Cai</maintainer>
+  <license>BSD-3-Clause</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <!-- Core deps -->
+  <depend>eigen3_cmake_module</depend>
+  <depend>ocs2_core</depend>
+  <depend>ocs2_pinocchio_interface</depend>
+  <depend>ocs2_robotic_tools</depend>
+
+  <!-- Humanoid stack -->
+  <depend>humanoid_common_mpc</depend>
+  <depend>humanoid_centroidal_mpc</depend>
+
+  <!-- Zlib for cnpy -->
+  <depend>zlib</depend>
+
+  <depend>boost</depend>
+
+  <!-- For pybind11 tool -->
+  <build_depend>ament_cmake_python</build_depend>
+  <build_depend>pybind11_vendor</build_depend>
+  <build_depend>pybind11</build_depend>
+
+  <exec_depend>ament_cmake_python</exec_depend>
+  <exec_depend>pybind11_vendor</exec_depend>
+  <exec_depend>pybind11</exec_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
